@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>r_s_planner</name>
+    <version>0.0.1</version>
+    <description>r_s_planner</description>
+    <author email="todo@todo.com">todo</author>
+    <maintainer email="todo@todo.com">todo</maintainer>
+    <!-- The export tag contains other, unspecified, tags -->
+
+    <!-- One license tag required, multiple allowed, one license per tag -->
+    <!-- Commonly used license strings: -->
+    <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+    <license>TBD</license>
+
+    <buildtool_depend>catkin</buildtool_depend>
+    <depend>roscpp</depend>
+    <depend>roslib</depend>
+    <depend>nav_msgs</depend>
+</package>

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="r_s_planner" type="r_s_planner_node" name="r_s_planner_node" args="" output="screen" />
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find r_s_planner)/cfg/r_s_viz.rviz" output="screen" />
+</launch>
